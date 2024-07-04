@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #081b29;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #152238;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo{
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+
+.navbar a{
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+  opacity: 0;
+  animation: slideTop .5s ease forwards;
+}
+
+.navbar a:hover{
+  color: #2e9cca;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: #081b29 ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content h3{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: -3px 0;
+}
+
+.home-content h1 span {
+  color: red;
+}
+
+.home-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.mbc{
+  color: red;
+}
+
+.logo{
+  color: grey;
+  font-size: 30px;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #2e9cca;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: .5s;
+  box-shadow: 0 0 5px #2e9cca,
+  0 0 25px #2e9cca;
+
+
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 5px #2e9cca,
+  0 0 25px #2e9cca, 0 0 50px #2e9cca,
+  0 0 100px #2e9cca, 0 0 200px #2e9cca;
+}
+
+.cs-img {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: #081b29 ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.division {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cs-img img {
+  padding-top: 10%;
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.cs-text h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.cs-text span {
+  color: red;
+}
+
+.cs-text h2 {
+  font-size: 60px;
+}
+
+.cs-text h2 span {
+  color: #2e9cca;
+}
+
+.cs-text p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.bd-text h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.bd-text h2 span {
+  color: #2e9cca;
+}
+
+.bd-text p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.bd-img img {
+  padding-top: 0;
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.gt-text h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.gt-text h2 span {
+  color: #2e9cca;
+}
+
+.gt-text p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.gt-img img {
+  padding-top: 0;
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.gis-text h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.gis-text h2 span {
+  color: #2e9cca;
+}
+
+.gis-text p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.gis-img img {
+  padding-top: 0;
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+#contact{
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+
+.sub-title span {
+  color: red;
+}
+.container {
+  padding: 90px;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.contact-list div {
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px #2e9cca,
+             1px 1px 40px #2e9cca
+}
+
+.contact-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.contact-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contact-list div a{
+  text-decoration: none;
+  color: #081b29;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #2e9cca;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 1s;
+  box-shadow: 0 0 5px #2e9cca,
+  0 0 25px #2e9cca;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px #2e9cca,
+  0 0 25px #2e9cca, 0 0 50px #2e9cca,
+  0 0 100px #2e9cca, 0 0 200px #2e9cca;
+}
+
+.contact-list div:hover{
+  transform: translateY(-20px);
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+  padding-left: 30px;
+  margin-top: 130px;
+}
+
+.about-text h2 {
+  font-size: 90px;
+  line-height: 1;
+  text-align: center;
+}
+
+.about-text h2 span {
+  color: red;
+}
+
+.about-text h4 {
+  margin: 15px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-text p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.foto-img {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: #081b29 ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.self-contact-list {
+  text-align: none;
+  font-size: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.self-contact-list li {
+  list-style: none;
+}
+
+
+
+
+
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
