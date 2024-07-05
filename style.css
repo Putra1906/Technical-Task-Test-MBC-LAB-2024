@@ -359,7 +359,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.foto-img {
+/*.foto-img {
   position: relative;
   width: 100%;
   justify-content: space-between;
@@ -369,7 +369,7 @@ body {
   background-position: center;
   display: flex;
   align-items: center;
-}
+}*/
 
 .self-contact-list {
   text-align: none;
@@ -384,9 +384,17 @@ html {
   list-style: none;
 }
 
+.foto-asisten {
+  width: 500px;
+  height: 300px;
+}
 
-
-
+.foto-diri {
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+  padding-left: 150px;
+}
 
 
 @keyframes slideRight {
